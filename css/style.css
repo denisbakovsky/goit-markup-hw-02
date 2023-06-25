@@ -49,6 +49,15 @@ a {
 
 
 /* header */
+
+.logo-span {
+    color: var(--color--iris);
+    font-size: 18px;
+    font-family: 'Raleway';
+    font-weight: 800;
+    line-height: 21px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -62,11 +71,12 @@ a {
 
 .logo {
     width: 115px;
-    align-items: center;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 21px;
     display: flex;
+    align-items: center;
+    font-size: 0.03em;
+    font-family: 'Raleway';
+    font-weight: 800;
+    line-height: 1.17;
 
 }
 
